@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px){
+    .infoContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 50px;
+    }
+
+    .info {
+        display: block;
+    }
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.aboutMe .heading {
+    width: 100%;
+    height: auto;
+}
+
+.aboutMe .content {
+    width: 100%;
+    height: auto;
+}
+
+.myWorks {
+    height: auto;
+    padding: 3rem 0px;
+}
+
+.workContainer {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.workCard {
+    width: 250px;
+}
+
+.formContainer {
+    width: 90%;
+}
+
+.nav-links {
+    display: none;
+}
+
+.fa-bars{
+    display: block;
+}
+
+nav {
+    padding: 2rem 2rem;
+}
+
+.logo {
+    margin-left: 0px;
+}
+
+}
+

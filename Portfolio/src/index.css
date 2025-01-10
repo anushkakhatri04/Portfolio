@@ -469,6 +469,10 @@ a:hover:after {
     transition: all 0.3s ease;
 }
 
+.contactMe .btn a {
+    color: #fff;
+}
+
 .contactMe .btn:hover {
     background-color: transparent;
     border: 2px solid whitesmoke;

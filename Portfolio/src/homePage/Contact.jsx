@@ -1,6 +1,26 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_twbk1oa', 'template_coruuf8', form.current, {
+        publicKey: 'nRFKriRgfwtAEkl4H',
+      })
+      .then(
+        () => {
+          alert('Submitted!');
+          form.current.reset();
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
     return (
         <div className="contactMe" id="contactMe">
             <div className="content">
@@ -12,13 +32,13 @@ function Contact() {
                 </p>
             </div>
             <div className="formContainer">
-                <form id="contactForm">
+                <form id="contactForm"  ref={form} onSubmit={sendEmail}>
                     <div className="formGroup">
                         <label htmlFor="name">Name</label>
                         <input 
                             type="text" 
                             id="name" 
-                            name="name" 
+                            name="from_name" 
                             placeholder="Your Name" 
                             required 
                         />
@@ -28,7 +48,7 @@ function Contact() {
                         <input 
                             type="email" 
                             id="email" 
-                            name="email" 
+                            name="from_email" 
                             placeholder="Your Email" 
                             required 
                         />
@@ -38,9 +58,9 @@ function Contact() {
                         <input 
                             type="tel" 
                             id="phone" 
-                            name="phone" 
+                            name="from_phone" 
                             placeholder="Your Phone Number" 
-                            required 
+                             
                         />
                     </div>
                     <div className="formGroup">
@@ -54,7 +74,7 @@ function Contact() {
                         />
                     </div>
                     <div className="formGroup">
-                        <button type="submit" className="btn">Send Message</button>
+                        <button type="submit" value="Send" className="btn" ><a href='/' target='_blank'>Send Message</a></button>
                     </div>
                 </form>
             </div>

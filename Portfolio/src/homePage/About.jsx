@@ -17,8 +17,8 @@ function About() {
                     Beyond coding, I thrive in collaborative environments where I can brainstorm ideas and solve complex problems with creative solutions. I am enthusiastic about working with forward-thinking teams and am actively seeking opportunities for internships or full-time roles where I can grow while adding value to your projects.
                 </p>
                 <div className="btnGrp">
-                    <button className="btn">View Works</button>
-                    <button className="btn">Github</button>
+                    <button className="btn"><a href="#myWorks" className="works">View Works</a></button>
+                    <button className="btn"><a href="https://github.com/anushkakhatri04" target="_blank" rel="noopener noreferrer">Github</a></button>
                 </div>
             </div>
         </div>

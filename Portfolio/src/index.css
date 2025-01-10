@@ -257,25 +257,25 @@ a:hover:after {
  }
 
   .workCard-1{
-    background-image: url(../public/media/images/wanderlust.jpg);
+    background-image: url(../media/images/wanderlust.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   .workCard-2 {
-    background-image: url(../public/media/images/spotify.jpg);
+    background-image: url(../media/images/spotify.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   .workCard-3{
-    background-image: url(../public/media/images/amazon.jpg);
+    background-image: url(../media/images/amazon.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
   }
   .workCard-4{
-    background-image: url(../public/media/images/todo.jpg);
+    background-image: url(../media/images/todo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

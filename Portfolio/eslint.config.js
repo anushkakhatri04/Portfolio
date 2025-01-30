@@ -17,6 +17,13 @@ export default [
         sourceType: 'module',
       },
     },
+    settings: {
+      react: {
+        version: "detect", // Automatically detects the React version
+      },
+    },
+
+    
     settings: { react: { version: '18.3' } },
     plugins: {
       react,

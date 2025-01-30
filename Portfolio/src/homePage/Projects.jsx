@@ -12,36 +12,36 @@ function Projects() {
                     <div className='inner-sub-container'>
                         <h5><u>Wanderlust</u></h5>
                         <p>Wanderlust is a user-friendly platform where individuals can list their properties and explore others for unique travel experiences.</p>
-                        <button type="button" class="btn sub-btn" ><a 
+                        <button type="button" className="btn sub-btn" ><a 
                         href="https://workingwanderlust.onrender.com/listings" 
-                        target="_blank" >View Live</a></button>
+                        target="_blank" rel="noreferrer" >View Live</a></button>
                     </div>
                 </div>
                 <div className='workCard-2 card-box'>
                     <div className='inner-sub-container'>
-                        <h5><u>Spotify Clone</u></h5>
-                        <p>A sleek Spotify Clone built with just HTML and CSS, featuring a visually appealing interface that mimics the original platform's design.</p>
-                        <button type="button" class="btn sub-btn"><a 
-                        href="https://github.com/anushkakhatri04/spotifyClone" 
-                        target="_blank">Github</a></button>
+                        <h5><u>Trading App</u></h5>
+                        <p>This is a trading app built with the MERN stack, featuring signup and login functionality. A Zerodha clone, it provides a platform for users to manage their trades and investments seamlessly.</p>
+                        <button type="button" className="btn sub-btn"><a 
+                        href="https://frontend-trading-app.vercel.app" 
+                        target="_blank" rel="noreferrer">View Live</a></button>
                     </div>
                 </div>
                 <div className='workCard-3 card-box'>
                     <div className='inner-sub-container'>
-                        <h5><u>Amazon Clone</u></h5>
-                        <p>An Amazon Clone built with HTML and CSS, showcasing a visually appealing layout that mimics the original website's design.</p>
-                        <button type="button" class="btn sub-btn"><a 
-                        href="https://github.com/anushkakhatri04/Amazon-Clone" 
-                        target="_blank">Github</a></button>
+                        <h5><u>Weather App</u></h5>
+                        <p>This weather app is built with React and Material UI, offering a sleek and responsive design. It fetches real-time weather data through APIs, allowing users to stay updated on weather conditions effortlessly.</p>
+                        <button type="button" className="btn sub-btn"><a 
+                        href="https://github.com/anushkakhatri04/WeatherApp" 
+                        target="_blank" rel="noreferrer">Github</a></button>
                     </div>
                 </div>
                 <div className='workCard-4 card-box'>
                     <div className='inner-sub-container'>
-                        <h5><u>Todo App</u></h5>
-                        <p>Stay organized with this simple To-Do app! Built using basic HTML, CSS, and JavaScript, it helps you efficiently manage tasks and keep track of your daily goals.</p>
-                        <button type="button" class="btn sub-btn">  <a 
-                        href="https://github.com/anushkakhatri04/todoApp" 
-                        target="_blank">Github</a></button>
+                        <h5><u>Spotify Clone</u></h5>
+                        <p>This Spotify clone is a visually appealing project built with HTML, CSS, and Bootstrap. Though non-functional, it showcases a sleek, responsive design inspired by the Spotify interface.</p>
+                        <button type="button" className="btn sub-btn">  <a 
+                        href="https://github.com/anushkakhatri04/spotifyClone" 
+                        target="_blank" rel="noreferrer">Github</a></button>
                     </div>
                 </div>
             </div>

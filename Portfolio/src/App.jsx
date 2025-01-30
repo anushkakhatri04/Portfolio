@@ -1,6 +1,6 @@
 import './index.css';
 import './responsive.css';
-import Homepage from "./homepage/Homepage.jsx";
+import Homepage from "./homePage/Homepage.jsx";
 
 
 function App() {

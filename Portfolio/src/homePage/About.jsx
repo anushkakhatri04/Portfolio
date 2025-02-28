@@ -8,13 +8,16 @@ function About() {
             </div>
             <div className="content">
                 <p>
-                    Greetings! I am Anushka Khatri, a proud BCA graduate and a passionate Web Developer specializing in the MERN stack. My expertise lies in creating modern, responsive, and user-friendly web applications using MongoDB, Express.js, React.js, and Node.js.
+                I'm Anushka Khatri, a dedicated Web Developer with a strong command over the MERN stack and a keen eye for crafting efficient and visually appealing web applications. My approach to development is driven by a passion for building seamless, scalable, and intuitive digital solutions.
                 </p>
                 <p>
-                    I am eager to expand my knowledge in areas like advanced backend development, cloud computing, and AI-driven web solutions. Staying updated with the latest technologies and continuously learning is my driving force. My goal is to contribute to innovative projects while refining my skills further.
+                I have experience working across various aspects of web development, from designing interactive frontend interfaces to implementing robust backend logic. My curiosity keeps me updated with emerging technologies, ensuring that I create modern and high-performing applications.
                 </p>
                 <p>
-                    Beyond coding, I thrive in collaborative environments where I can brainstorm ideas and solve complex problems with creative solutions. I am enthusiastic about working with forward-thinking teams and am actively seeking opportunities for internships or full-time roles where I can grow while adding value to your projects.
+                I thrive in dynamic environments where I can collaborate, problem-solve, and contribute meaningfully to projects. I am always eager to take on new challenges that push my creativity and technical expertise.
+                </p>
+                <p>
+                Currently, I am looking for internship and full-time opportunities to apply my skills, grow as a developer, and contribute to impactful projects. Let’s connect and create something great together!
                 </p>
                 <div className="btnGrp">
                     <a href="#myWorks" className="btn">View Works</a>

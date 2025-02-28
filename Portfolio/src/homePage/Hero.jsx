@@ -12,7 +12,7 @@ function Hero() {
                 </button>
             </div>
             <div className="pic">
-                <img src="pic.png" alt="Anushka Khatri" />
+                <img src="/media/images/pic.png" alt="Anushka Khatri" />
             </div>
         </div>
     );
